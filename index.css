@@ -7,15 +7,18 @@ body, h1{
     letter-spacing: 2px;
     background-color: orange!important;
     margin-bottom: -70px;
-    margin-right: 5px;
-    margin-left: 5px;
-    border-radius: 5px;
+    margin-right: 7px;
+    margin-left: 8px;
+    border-radius: 3px;
     /* padding: 60px; */
 }
 
 h1 {
-    margin-left:2px;
-    padding-left: 10px;
+    -webkit-text-stroke: 1.5px rgb(95, 95, 95);
+    margin-left: 2px;
+    margin-right: 0px;
+    margin-top: -2px;
+    padding-left: 15px;
     color: white;
 }
 
@@ -27,8 +30,6 @@ h1 {
 } */
 
 .username, .button {
-    border-radius: 5px;
-    -webkit-touch-callout: default;
     text-decoration: none;
     font-family: "Segoe UI";
     font-weight: 500;
@@ -43,12 +44,9 @@ h1 {
 }
 
 .button {
-    /* background-color:#ee9a00;
-    padding: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px; */
-    margin-right: 2%;
-    margin-left: 2%;
+    border-radius: 2px;
+    margin-right: 0px;
+    margin-left: 0px;
     padding-top: 10px;
     padding-bottom: 12px;
     float: left;
@@ -58,9 +56,26 @@ h1 {
 
 
 .username, .dropdown{
-    margin-right: 2.4%;
+    border-radius: 3px;
+    margin-right: 25px;
     margin-left: 20px;
+    /* margin-top: -5px; */
+    /* padding-top: 10px; */
+    /* padding-bottom: 12px; */
+    padding-right: 60px;
     float: right;
+}
+
+.dropdown{
+    padding-left: 120px;
+    /* position: relative;
+    display: inline-block; */
+}
+
+.fa-caret-down{
+    margin-top: 12px;
+    margin-right: -230px;
+    width: 10px;
 }
 
 .drop-content {
@@ -68,8 +83,8 @@ h1 {
     display: none;
     position: absolute;
     background-color: #929191;
-    margin-top:50px;
-    margin-left: 20px;
+    margin-top: 20px;
+    margin-left: -136.5px;
     min-width:170px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -82,13 +97,10 @@ h1 {
     display: block;
 }
 
-.dropdown{
-    position: relative;
-    display: inline-block;
-}
+
 .dropdown:hover .drop-content {display:block;}
 .dropdown:hover {
-    padding-bottom: 52px;
+    padding-bottom: 60px;
 }
 .dropdown:hover .username {background-color: #917005;}
 .drop-content a:hover {background-color: rgb(124, 124, 124);}
@@ -96,6 +108,6 @@ h1 {
 .topnav {
     position: relative;
     top: 27px;
-    left: 37%;
-    padding-right: 35%;
+    left: 350px;
+    padding-right: 240px;
 }
